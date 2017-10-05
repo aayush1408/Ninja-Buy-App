@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp"><!--ng-app to tell its an angular app -->
+  <head>
+    <title>The NetNinja App</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="angular-route.min.js"></script> 
+    <script type="text/javascript" src="app.js"></script>  
+  </head>
+  <body >
+<ng-include src="'header.html'"></ng-include>
+<main ng-view></main>
+  </body>
+</html>
